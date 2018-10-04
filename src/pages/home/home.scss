@@ -1,3 +1,11 @@
 page-home {
+    $marginBtn: 30px;
+.btnConfirmar{
+    margin-top: $marginBtn;
+    color: map-get($colors, secondary)
+}
+.btnProxPage{
+    margin-top: $marginBtn;
+}
 
 }
